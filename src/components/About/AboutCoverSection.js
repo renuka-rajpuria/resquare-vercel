@@ -18,8 +18,11 @@ const AboutCoverSection = () => {
             Dream Big, Work Hard, Achieve More!
             </h2>
             <p className='font-medium capitalize mt-4 text-base'>
-            This Mantra Drives My Work As A Passionate Freelancer. I Blend Innovative Technology With Timeless Design For Captivating Digital Experiences. Inspired By Nature And Literature, I'm A Perpetual Learner Embracing Challenges. With Each Project, I Aim To Leave A Lasting Impact—One Pixel At A Time.
-            </p>
+I love delivering solutions at the intersection
+of user-centric technology and design. I am
+an engineering student currently building
+impactful web experiences along with great
+teams at Sustainability 101 </p>
         </div>
     </section>
   )

@@ -1,220 +1,87 @@
 ---
-title: "The Power of JavaScript Frameworks: Angular vs. React vs. Vue.js"
-description: "Get a detailed comparison of three popular JavaScript frameworks - Angular, React, and Vue.js. Understand the strengths, weaknesses, and use cases for each framework to make an informed decision for your next web development project."
-image: "../../public/blogs/paul-esch-laurent-oZMUrWFHOB4-unsplash.jpg"
+title: "5G Hackathon 2024"
+description: "E Healthcare is conducting a hackathon – 5G Hackathon 2024 and invites all the enthusiasts to participate in this interesting and engaging hackathon."
+image: "../../public/blogs/5ghackathon.jpg"
 publishedAt: "2022-11-12"
 updatedAt: "2022-11-12"
-author: "codebucks"
+author: "resquare"
 isPublished: true
 tags:
-- javascript
-- web development
+- Hackathon
+- National Level
 ---
 
 
-
-Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
-
-By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
-
-We get lots of complaints about it actually, with people regularly asking us things like:
-
-> Why is Tailwind removing the default styles on my `h1` elements? How do I disable this? What do you mean I lose all the other base styles too?
-> We hear you, but we're not convinced that simply disabling our base styles is what you really want. You don't want to have to remove annoying margins every time you use a `p` element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look _awesome_, not awful.
-
-The `@tailwindcss/typography` plugin is our attempt to give you what you _actually_ want, without any of the downsides of doing something stupid like disabling our base styles.
-
-It adds a new `prose` class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:
-
-```html
-<article className="prose">
-  <h1>Garlic bread with cheese: What the science tells us</h1>
-  <p>
-    For years parents have espoused the health benefits of eating garlic bread
-    with cheese to their children, with the food earning such an iconic status
-    in our culture that kids will often dress up as warm, cheesy loaf for
-    Halloween.
-  </p>
-  <p>
-    But a recent study shows that the celebrated appetizer may be linked to a
-    series of rabies cases springing up around the country.
-  </p>
-</article>
-```
-
-For more information about how to use the plugin and the features it includes, [read the documentation](https://github.com/tailwindcss/typography/blob/master/README.md).
+## Overview
+Hacking is building things that you always wanted to have but no one has built it yet. It's to come up with an amazing idea and work tirelessly on it. It is to fail, fail again and fail better. Try out new things and learn while doing that. It's to work together, collaborate and build things that are innovative. It is to be a better programmer. With that spirit, GE Healthcare is conducting a hackathon – 5G Hackathon 2024 and invites all the enthusiasts to participate in this interesting and engaging hackathon.
 
 ---
 
-## What to expect from here on out
+## Eligibility
+If you are currently pursuing your Graduation (2nd, 3rd and 4th Year) or Post Graduation in Engineering from any stream and that can be achievable within the given time frame then you are welcome to apply for this challenge.
+You need to be a Startup registered in India.
+Timeline
 
-What follows from here is just a bunch of absolute nonsense I've written to dogfood the plugin itself. It includes every sensible typographic element I could think of, like **bold text**, unordered lists, ordered lists, code blocks, block quotes, _and even italics_.
+---
 
-It's important to cover all of these use cases for a few reasons:
+## Themes:
+Important Note: Download this file to use the Idea Submission Template
 
-1.  We want everything to look good out of the box.
-2.  Really just the first reason, that's the whole point of the plugin.
-3.  Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
+---
+ 
+## Building a slice for HC equipment service over 5G
 
-Now we're going to try out another header style.
+### Problem Statement: 
 
-### Typography should be easy
+It is often the case that customers do not have enough network bandwidth for all data to be sent to the back office. In addition, the customer network is often unreliable to support remote troubleshooting and perform E-Delivery and installation of Load from Cold Software upgrades and/or patches/updates. 
 
-So that's a header for you — with any luck if we've done our job correctly that will look pretty reasonable.
+There is therefore the need to create a shadow/private/hidden network of GEHC devices to the On Prem EDGE and to the back-office bypassing customer’s network infrastructure or resort to/fall back when the customer has a slow internet connection. This private network will enable real time data streaming to the back office and remote monitoring of devices and resources (Real Time Data transfer – Predictive Analytics). It will also provide faster and more reliable data transfer between GEHC devices (Redundancy). Finally, it will enable the use of shared service features and technologies (e.g., Tools, SW downloads) between GEHC devices 
 
-Something a wise person once told me about typography is:
+### Expectations from the overall solution: 
 
-> Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.
+Architecture, Device Configuration, 5G Hardware on the Device, 5G Routers/Gateway to the Backoffice. 
 
-It's probably important that images look okay here by default as well:
+Technology to explore: 5G network edge (AWS Wavelength) – Prove out compute and storage at the edge. EHL at 5G edge. Service mesh network within hospital with 5G where cellular network is not available.  Amazon firestick 5G enabled connected to healthcare device – data collected in device transferred through 5G enabled dongle. – Gateway/booster for last mile reach. 
 
-<Image
-  src="/blogs/c-d-x-PDX_a_82obo-unsplash.jpg"
-  width="718"
-  height="404"
-  alt="Image"
-  sizes="100vw"
-/>
+### Issues: 
+How to enable hospitals to sniff into shadow/private network for data privacy compliance. Last mile – hospital 5G……but then GEHC private 5G network 
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+---
 
-Now I'm going to show you an example of an unordered list to make sure that looks good, too:
+## Enhanced patient care through seamless monitoring and data continuity
 
-- So here is the first item in this list.
-- In this example we're keeping the items short.
-- Later, we'll use longer, more complex list items.
+### Problem Statement: 
 
-And that's the end of this section.
+Whether a patient is being transferred from home to the hospital or moved between different hospital branches via an ambulance, the utilization current ecosystem for care continuum across care pathways and seamless data connectivity becomes crucial. Remote monitoring of the patient's vital signs becomes essential in this scenario. The implementation of continuous remote monitoring facilitated by technologies like 5G, or comparable alternatives could significantly enhance caregivers' ability to deliver improved patient care. 
 
-## What if we stack headings?
+### Expectations from the overall solution: 
 
-### We should make sure that looks good, too.
+A demonstration or proof of concept (POC) showcasing the viability of continuous monitoring across care pathways and seamless data connectivity to the IOMT ecosystem. 
 
-Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.
+---
+ 
+## 5G in Remote Radiotherapy delivery
+### Problem Statement: 
 
-### When a heading comes after a paragraph …
+Radiotherapy is one of the key elements in cancer care, which involves delivery of ionizing radiation beams to the tumor to kill it. One of the major hurdles to establishing more radiotherapy treatment units across the country is trained staff- in addition to a radiation oncologist, who treats the patient, radiation physicists and technicians are required, who plan out the treatment and ensure that is properly carried out. With newer techniques especially, quality assurance and control are vital- plans that are off by a margin of 2 mm (about 0.08 in) or so can result in treatment failure. Although in-house audits do happen, there is no central QA/QC for radiotherapy that happens outside of random selected cases in a clinical trial. This can result in significant variation in treatment quality and outcomes even within the same hospital. Building a platform for radiotherapy QA/QC using 5G would be a monumental task, but also have huge potential for radiotherapy delivery in the country. It would need to be able to handle transfer a large amount of data back and forth periodically (during the initial simulation, planning images, periodic re-imaging and plan audit data), the ability to edit live planning data remotely, archive this data in an organized fashion for subsequent data analytics, research and audit, and eventually when the system is built allow for AI/ML applications like automated planning, which are already under investigation in parts of the world. 
 
-When a heading comes after a paragraph, we need a bit more space, like I already mentioned above. Now let's see what a more complex list would look like.
+### Expectations from the overall solution: 
 
-- **I often do this thing where list items have headings.**
+To oversee quality of radiotherapy delivery in areas where manpower and expertise is limited 
 
-  For some reason I think this looks cool which is unfortunate because it's pretty annoying to get the styles right.
+---
 
-  I often have two or three paragraphs in these list items, too, so the hard part is getting the spacing between the paragraphs, list item heading, and separate list items to all make sense. Pretty tough honestly, you could make a strong argument that you just shouldn't write this way.
+## Continuous Monitoring of Ambulatory Patients using 5G
+### Problem Statement: 
 
-- **Since this is a list, I need at least two items.**
+When a patient moves from a high acuity environment, like OR or ICU to a lower acuity ward, the possibility of an early discharge can be considered based on the patient's condition. This option is contingent upon the enablement of remote connectivity of the Portrait Hub from patient’s home with the portrait ecosystem, this integration empowers caregivers to provide patient care on need basis through remote monitoring. This approach accomplishes the following: 
 
-  I explained what I'm doing already in the previous list item, but a list wouldn't be a list if it only had one item, and we really want this to look realistic. That's why I've added this second list item so I actually have something to look at when writing the styles.
+Ensures that low acuity ward admissions in hospitals are prioritized for the most critical patients. 
+Streamlines early patient discharge, leading to potential cost savings. 
+If the reliability and latency of 5G meet the demands of real-time monitoring, the exploration of transitioning the current ecosystem from on-premises to a Cloud-based deployment becomes a viable next step. 
+### Expectations from the overall solution: 
 
-- **It's not a bad idea to add a third item either.**
+A demonstration or proof of concept (POC) showcasing the viability of continuous monitoring as patients are on movement, enabled by advanced technologies such as 5G 
+---
 
-  I think it probably would've been fine to just use two items but three is definitely not worse, and since I seem to be having no trouble making up arbitrary things to type, I might as well include it.
-
-After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.
-
-## Code should look okay by default.
-
-I think most people are going to use [highlight.js](https://highlightjs.org/) or [Prism](https://prismjs.com/) or something if they want to style their code blocks but it wouldn't hurt to make them look _okay_ out of the box, even with no syntax highlighting.
-
-Here's what a default `tailwind.config.js` file looks like at the time of writing:
-
-```js
-module.exports = {
-  purge: [],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
-```
-
-Hopefully that looks good enough to you.
-
-### What about nested lists?
-
-Nested lists basically always look bad which is why editors like Medium don't even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.
-
-1.  **Nested lists are rarely a good idea.**
-    - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
-    - Nested navigation in UIs is a bad idea too, keep things as flat as possible.
-    - Nesting tons of folders in your source code is also not helpful.
-2.  **Since we need to have more items, here's another one.**
-    - I'm not sure if we'll bother styling more than two levels deep.
-    - Two is already too much, three is guaranteed to be a bad idea.
-    - If you nest four levels deep you belong in prison.
-3.  **Two items isn't really a list, three is good though.**
-    - Again please don't nest lists if you want people to actually read your content.
-    - Nobody wants to look at this.
-    - I'm upset that we even have to bother styling this.
-
-The most annoying thing about lists in Markdown is that `<li>` elements aren't given a child `<p>` tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.
-
-- **For example, here's another nested list.**
-
-  But this time with a second paragraph.
-
-  - These list items won't have `<p>` tags
-  - Because they are only one line each
-
-- **But in this second top-level list item, they will.**
-
-  This is especially annoying because of the spacing on this paragraph.
-
-  - As you can see here, because I've added a second line, this list item now has a `<p>` tag.
-
-    This is the second line I'm talking about by the way.
-
-  - Finally here's another list item so it's more like a list.
-
-- A closing list item, but with no nested list, because why not?
-
-And finally a sentence to close off this section.
-
-## There are other elements we need to style
-
-I almost forgot to mention links, like [this link to the Tailwind CSS website](https://tailwindcss.com). We almost made them blue but that's so yesterday, so we went with dark gray, feels edgier.
-
-We even included table styles, check it out:
-
-| Wrestler                | Origin       | Finisher           |
-| ----------------------- | ------------ | ------------------ |
-| Bret "The Hitman" Hart  | Calgary, AB  | Sharpshooter       |
-| Stone Cold Steve Austin | Austin, TX   | Stone Cold Stunner |
-| Randy Savage            | Sarasota, FL | Elbow Drop         |
-| Vader                   | Boulder, CO  | Vader Bomb         |
-| Razor Ramon             | Chuluota, FL | Razor's Edge       |
-
-We also need to make sure inline code looks good, like if I wanted to talk about `<span>` elements or tell you the good news about `@tailwindcss/typography`.
-
-### Sometimes I even use `code` in headings
-
-Even though it's probably a bad idea, and historically I've had a hard time making it look good. This _"wrap the code blocks in backticks"_ trick works pretty well though really.
-
-Another thing I've done in the past is put a `code` tag inside of a link, like if I wanted to tell you about the [`tailwindcss/docs`](https://github.com/tailwindcss/docs) repository. I don't love that there is an underline below the backticks but it is absolutely not worth the madness it would require to avoid it.
-
-#### We haven't used an `h4` yet
-
-But now we have. Please don't use `h5` or `h6` in your content, Medium only supports two heading levels for a reason, you animals. I honestly considered using a `before` pseudo-element to scream at you if you use an `h5` or `h6`.
-
-We don't style them at all out of the box because `h4` elements are already so small that they are the same size as the body copy. What are we supposed to do with an `h5`, make it _smaller_ than the body copy? No thanks.
-
-### We still need to think about stacked headings though.
-
-#### Let's make sure we don't screw that up with `h4` elements, either.
-
-Phew, with any luck we have styled the headings above this text and they look pretty good.
-
-Let's add a closing paragraph here so things end with a decently sized block of text. I can't explain why I want things to end that way but I have to assume it's because I think things will look weird or unbalanced if there is a heading too close to the end of the document.
-
-What I've written here is probably long enough, but adding this final sentence can't hurt.
-
-## GitHub Flavored Markdown
-
-I've also added support for GitHub Flavored Mardown using `remark-gfm`.
-
-With `remark-gfm`, we get a few extra features in our markdown. Example: autolink literals.
-
-A link like www.example.com or https://example.com would automatically be converted into an `a` tag.
-
-This works for email links too: contact@example.com.
+For more info contact: renukarajpuria@karunya.edu.in

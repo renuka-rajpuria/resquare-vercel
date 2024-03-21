@@ -1,220 +1,121 @@
 ---
-title: "Mastering CSS Grid Layout: A Comprehensive Guide"
-description: "Dive into the world of CSS Grid Layout with this comprehensive guide. Learn how to create responsive and dynamic layouts using CSS Grid, and explore various examples and best practices for building modern web interfaces."
-image: "../../public/blogs/kelly-sikkema--1_RZL8BGBM-unsplash.jpg"
+title: "Bhashini Sprint"
+description: "DIBD invites solutions for following Five (05) problems statements in NLP domain to evolve an effective and indigenous solution(s) to language specific problems"
+image: "../../public/blogs/bhashini.png"
 publishedAt: "2022-11-12"
 updatedAt: "2022-11-12"
-author: "codebucks"
+author: "resquare"
 isPublished: true
 tags:
-- css
-- web development
+- Hackathon
+- National Level
 ---
 
+## About
 
+Bhashini, the National Language Technology Mission (NLTM), was launched by the Prime Minister in July 2022 to provide language technology solutions as digital public goods through the Bhashini platform (https://bhashini.gov.in). This is aimed to be achieved by harnessing the emerging technologies such as AI/ML, NLP to develop and share open-source models, tools, and solutions (products and services) for Indian languages with ecosystem development involving startups, industries, academia, research groups, enthusiasts and State/Central Governments. The approach is to create large datasets in the Scheduled Indian Languages to train AI models for translation and conversion of speech to text and vice versa, including voice to voice translation for general usage as well as for specific domains/contexts like education, healthcare, and financial services etc.
 
-Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
+1000+ pre-trained AI models have been made available on Bhashini platform. These AI language models have also been exposed via Open Bhashini APIs for Bhashini ecosystem partners. The next steps include large applications of public relevance along with fine tune AI models, demonstrate capability and acquire implementation experience, so that implementation approaches may be developed for common language technology requirements like intelligent voice-based user interfaces, document translation and website translation at scale.
 
-By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
-
-We get lots of complaints about it actually, with people regularly asking us things like:
-
-> Why is Tailwind removing the default styles on my `h1` elements? How do I disable this? What do you mean I lose all the other base styles too?
-> We hear you, but we're not convinced that simply disabling our base styles is what you really want. You don't want to have to remove annoying margins every time you use a `p` element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look _awesome_, not awful.
-
-The `@tailwindcss/typography` plugin is our attempt to give you what you _actually_ want, without any of the downsides of doing something stupid like disabling our base styles.
-
-It adds a new `prose` class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:
-
-```html
-<article className="prose">
-  <h1>Garlic bread with cheese: What the science tells us</h1>
-  <p>
-    For years parents have espoused the health benefits of eating garlic bread
-    with cheese to their children, with the food earning such an iconic status
-    in our culture that kids will often dress up as warm, cheesy loaf for
-    Halloween.
-  </p>
-  <p>
-    But a recent study shows that the celebrated appetizer may be linked to a
-    series of rabies cases springing up around the country.
-  </p>
-</article>
-```
-
-For more information about how to use the plugin and the features it includes, [read the documentation](https://github.com/tailwindcss/typography/blob/master/README.md).
+An Independent Business Division (IBD), Digital India Bhashini Division (DIBD) has been set up under Digital India Corporation (DIC) to anchor the Mission Bhashini activities and to nurture the language technology ecosystem especially involving startups.
 
 ---
 
-## What to expect from here on out
+## Problem Statements
 
-What follows from here is just a bunch of absolute nonsense I've written to dogfood the plugin itself. It includes every sensible typographic element I could think of, like **bold text**, unordered lists, ordered lists, code blocks, block quotes, _and even italics_.
+The proposed BHASHINI-SPRINT with Five (05) pre-identified problem statements tries to tackle challenges relating to various areas and segments related to Bhashini Technology and services.
 
-It's important to cover all of these use cases for a few reasons:
+### PROBLEM STATEMENT 1 
+BHASHINI NEGOTIATION ENGINE : DEVELOP A TECH FUNCTIONALITY TO BRIDGE THE LANGUAGE GAP IN A VOICE BASED NEGOTIATION SCENARIO
+Description: A buyer (Language A) and seller (Language B) wants to finalize a deal after a negotiation. However, language barriers hinder smooth communication and potentially lead to misunderstandings and missed opportunities. Existing translation tools often lack the context and nuance required for complex negotiations also missing out on intent and sentiment. Current solutions may not capture regional dialects or cultural subtleties, potentially causing misinterpretations. Develop a functionality which can accurately translates not only words but also intent, sentiment, and cultural nuances between the seller and buyer facilitating a smoother negotiation and deal finalization.
 
-1.  We want everything to look good out of the box.
-2.  Really just the first reason, that's the whole point of the plugin.
-3.  Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
+Desired Outcome:
 
-Now we're going to try out another header style.
+1. The tool can act as a seamless translator, understanding and conveying the full context of the conversation between both the parties, regardless of language
 
-### Typography should be easy
+2. The tool accurately translates not only words but also intent, sentiment, and cultural nuances.
 
-So that's a header for you — with any luck if we've done our job correctly that will look pretty reasonable.
+### PROBLEM STATEMENT 2
+DEVELOP A CHAT-BOT FACILITATING MULTILINGUAL CUSTOMER SUPPORT FOR THE SELLER AND BUYER
+Description: Existing translation tools might struggle with technical jargon or customer emotions. Develop a chatbot to facilitate the process among the existing eco-system for an efficient execution. The chatbot should be able to translate text-to-text, voice-to-voice, voicetext-voice
 
-Something a wise person once told me about typography is:
+Desired Outcome:
 
-> Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.
+1. The chatbot should provide real-time translation during customer service interactions, ensuring accurate and natural communication.
 
-It's probably important that images look okay here by default as well:
+2. The tool can identify and translate customer emotions and respond empathetically
 
-<Image
-  src="/blogs/c-d-x-PDX_a_82obo-unsplash.jpg"
-  width="718"
-  height="404"
-  alt="Image"
-  sizes="100vw"
-/>
+3. The tool can identify and translate customer emotions and respond empathetically
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+### PROBLEM STATEMENT 3
+DEVELOP A SOFTWARE FACILITATING MULTILINGUAL NEW BUSINESS ONBOARDING ON AN E-COMMERCE PLATFORM
+Description: : Currently, many small businesses struggle to list their products and services on emarketplaces due to language barriers. Existing translation tools often lead to inconsistent or inaccurate listings, hindering visibility and potential customer reach. Devise a solution which can ease out the process for the individual business owner during the onboarding process
 
-Now I'm going to show you an example of an unordered list to make sure that looks good, too:
+Desired Outcome:
 
-- So here is the first item in this list.
-- In this example we're keeping the items short.
-- Later, we'll use longer, more complex list items.
+1. Facilitate the creation of accurate and comprehensive multilingual onboarding for businesses, ensuring consistency across languages.
 
-And that's the end of this section.
+2. Integrate with various e-marketplace platforms to simplify the onboarding process for businesses lacking language expertise
 
-## What if we stack headings?
+3. Offer translation services tailored to specific e-commerce needs, considering product descriptions, keywords, and marketing content.
 
-### We should make sure that looks good, too.
+4. Offer translation services tailored to specific e-commerce needs, considering product descriptions, keywords, and marketing content.
 
-Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.
+### PROBLEM STATEMENT 4
+STREAMLINED INVENTORY MANAGEMENT WITH VOICE COMMANDS AND ADVANCED IMAGE DETECTION FOR SELLERS
+Description: : Manually managing inventory is time-consuming and error-prone, especially for small businesses with limited resources and limitation in reading and typing knowledge. Existing solutions often require manual data entry, hindering efficiency and accuracy. Propose a solution which can overcome this limitation. The tool can be integrated in the E-com platforms
 
-### When a heading comes after a paragraph …
+Desired Outcome:
 
-When a heading comes after a paragraph, we need a bit more space, like I already mentioned above. Now let's see what a more complex list would look like.
+1. Perform real-time inventory checks and updates using voice commands in their preferred language, eliminating the need for manual data entry.
 
-- **I often do this thing where list items have headings.**
+2. Perform real-time inventory checks and updates using voice commands in their preferred language, eliminating the need for manual data entry.
 
-  For some reason I think this looks cool which is unfortunate because it's pretty annoying to get the styles right.
+3. Receive voice-based alerts and notifications when stock levels reach predefined thresholds, facilitating proactive inventory management.
 
-  I often have two or three paragraphs in these list items, too, so the hard part is getting the spacing between the paragraphs, list item heading, and separate list items to all make sense. Pretty tough honestly, you could make a strong argument that you just shouldn't write this way.
+4. Offer customizable voice commands to streamline specific inventory management tasks, improving efficiency and reducing workload.
 
-- **Since this is a list, I need at least two items.**
+5. Image based inventory updation; The system utilizes advanced object detection algorithms to accurately count the number of items in the captured image. The system seamlessly integrates with existing inventory management software, automatically updating stock levels based on the object count.
 
-  I explained what I'm doing already in the previous list item, but a list wouldn't be a list if it only had one item, and we really want this to look realistic. That's why I've added this second list item so I actually have something to look at when writing the styles.
+### PROBLEM STATEMENT 5
+EMPOWERING VOICE-ACTIVATED SHOPPING IN AR/VR FOR MULTILINGUAL USERS
+Description: : The growing popularity of AR/VR technology offers a new paradigm for online shopping, providing immersive and interactive experiences. However, current solutions often lack accessibility for users who are not fluent in the platform's primary language. Develop a functionality to bridge this gap by developing a voice-activated shopping system within an AR/VR environment, specifically catering to users with diverse language needs.
 
-- **It's not a bad idea to add a third item either.**
+Desired Outcome:
 
-  I think it probably would've been fine to just use two items but three is definitely not worse, and since I seem to be having no trouble making up arbitrary things to type, I might as well include it.
+Language barrier: Many potential AR/VR shoppers may not be comfortable using interfaces primarily in English or other dominant languages. The functionality should overcome this limitation
 
-After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.
+Limited voice interaction: Existing systems might not offer comprehensive voice command functionalities for searching, purchasing, and payment within AR/VR environments. This should be integrated
 
-## Code should look okay by default.
+Inventory management across vendors: Integrating and searching inventory from multiple vendors can be complex, hindering product discovery and purchase completion. The functionality should address this as well.
 
-I think most people are going to use [highlight.js](https://highlightjs.org/) or [Prism](https://prismjs.com/) or something if they want to style their code blocks but it wouldn't hurt to make them look _okay_ out of the box, even with no syntax highlighting.
+The teams can choose to participate in one or all challenges.
 
-Here's what a default `tailwind.config.js` file looks like at the time of writing:
+---
 
-```js
-module.exports = {
-  purge: [],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
-```
+## Timeline
 
-Hopefully that looks good enough to you.
+1.	Launch of Bhashini-sprint	11th March 2024
+2.	Last date of Registration- Submission of ideas	15th March 2024
+3.	Initial Screening of applications & declaration of results (Stage 1)	19th March 2024
+4.	Evaluation of (Stage 2) Initial prototypes and result declaration	27th & 28th March 2024
+5.	Grand Finale (Stage 3) & Declaration of winners	20th April 2024
 
-### What about nested lists?
+---
 
-Nested lists basically always look bad which is why editors like Medium don't even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.
+## Stages
 
-1.  **Nested lists are rarely a good idea.**
-    - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
-    - Nested navigation in UIs is a bad idea too, keep things as flat as possible.
-    - Nesting tons of folders in your source code is also not helpful.
-2.  **Since we need to have more items, here's another one.**
-    - I'm not sure if we'll bother styling more than two levels deep.
-    - Two is already too much, three is guaranteed to be a bad idea.
-    - If you nest four levels deep you belong in prison.
-3.  **Two items isn't really a list, three is good though.**
-    - Again please don't nest lists if you want people to actually read your content.
-    - Nobody wants to look at this.
-    - I'm upset that we even have to bother styling this.
+The BHASHINI-SPRINT is open for participation in teams having experts from all domains of a software development life cycle. It would be in three (3) stages:
 
-The most annoying thing about lists in Markdown is that `<li>` elements aren't given a child `<p>` tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.
+### Stage 1
+Teams will have to propose the innovative and cutting-edge ideas of their solution along with a prototype as per problem statement identified. The top 5 teams per problem statement would be selected from this stage.
 
-- **For example, here's another nested list.**
+### Stage 2
+The shortlisted teams from stage 1 will be given a chance to develop a prototype based on the problem statements mentioned in Annexure A. In this stage top 3 teams selected from previous stage per problem statement will be given INR 50 each as grant to develop an enhanced version of the prototype.
 
-  But this time with a second paragraph.
+### Stage 3
+Shortlisted teams from stage 2 will present the enhanced version and final product to the committee in grand finale, 1 team per problem statement will be selected in this stage as a winner and 1 team will be selected as runner up and a grant of total INR 7 lakhs (5 lakh for winning team+ 2 Lakh for the runners up) will be given to them.
 
-  - These list items won't have `<p>` tags
-  - Because they are only one line each
+---
 
-- **But in this second top-level list item, they will.**
-
-  This is especially annoying because of the spacing on this paragraph.
-
-  - As you can see here, because I've added a second line, this list item now has a `<p>` tag.
-
-    This is the second line I'm talking about by the way.
-
-  - Finally here's another list item so it's more like a list.
-
-- A closing list item, but with no nested list, because why not?
-
-And finally a sentence to close off this section.
-
-## There are other elements we need to style
-
-I almost forgot to mention links, like [this link to the Tailwind CSS website](https://tailwindcss.com). We almost made them blue but that's so yesterday, so we went with dark gray, feels edgier.
-
-We even included table styles, check it out:
-
-| Wrestler                | Origin       | Finisher           |
-| ----------------------- | ------------ | ------------------ |
-| Bret "The Hitman" Hart  | Calgary, AB  | Sharpshooter       |
-| Stone Cold Steve Austin | Austin, TX   | Stone Cold Stunner |
-| Randy Savage            | Sarasota, FL | Elbow Drop         |
-| Vader                   | Boulder, CO  | Vader Bomb         |
-| Razor Ramon             | Chuluota, FL | Razor's Edge       |
-
-We also need to make sure inline code looks good, like if I wanted to talk about `<span>` elements or tell you the good news about `@tailwindcss/typography`.
-
-### Sometimes I even use `code` in headings
-
-Even though it's probably a bad idea, and historically I've had a hard time making it look good. This _"wrap the code blocks in backticks"_ trick works pretty well though really.
-
-Another thing I've done in the past is put a `code` tag inside of a link, like if I wanted to tell you about the [`tailwindcss/docs`](https://github.com/tailwindcss/docs) repository. I don't love that there is an underline below the backticks but it is absolutely not worth the madness it would require to avoid it.
-
-#### We haven't used an `h4` yet
-
-But now we have. Please don't use `h5` or `h6` in your content, Medium only supports two heading levels for a reason, you animals. I honestly considered using a `before` pseudo-element to scream at you if you use an `h5` or `h6`.
-
-We don't style them at all out of the box because `h4` elements are already so small that they are the same size as the body copy. What are we supposed to do with an `h5`, make it _smaller_ than the body copy? No thanks.
-
-### We still need to think about stacked headings though.
-
-#### Let's make sure we don't screw that up with `h4` elements, either.
-
-Phew, with any luck we have styled the headings above this text and they look pretty good.
-
-Let's add a closing paragraph here so things end with a decently sized block of text. I can't explain why I want things to end that way but I have to assume it's because I think things will look weird or unbalanced if there is a heading too close to the end of the document.
-
-What I've written here is probably long enough, but adding this final sentence can't hurt.
-
-## GitHub Flavored Markdown
-
-I've also added support for GitHub Flavored Mardown using `remark-gfm`.
-
-With `remark-gfm`, we get a few extra features in our markdown. Example: autolink literals.
-
-A link like www.example.com or https://example.com would automatically be converted into an `a` tag.
-
-This works for email links too: contact@example.com.
+For more info contact: renukarajpuria@karunya.edu.in
